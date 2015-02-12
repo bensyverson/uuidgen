@@ -83,4 +83,4 @@ var UUID = (function () {
 
 var module = module || {};
 module.exports = module.exports || {};
-module.exports = PrivateUUID;
+module.exports = UUID;
