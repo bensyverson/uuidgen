@@ -8,6 +8,8 @@ var PrivateUUID = function() {
 
 	var queueIsRunning = false;
 
+	var id = 0;
+
 	/**
 	 * Queue a new UUID to be generated.
 	 */
