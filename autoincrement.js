@@ -34,6 +34,5 @@ var Autoincrementer = (function () {
 	};
 })();
 
-var module = module || {};
-module.exports = module.exports || {};
+if (typeof(module) === typeof(undefined)) window.module = {};
 module.exports = Autoincrementer;
